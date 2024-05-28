@@ -10,28 +10,33 @@ This project involves transforming and updating data from a CSV file, applying t
 # Configure Spark and Delta Lake
 Ensure that you have a Spark and Delta Lake setup in your environment. This typically involves configuring Spark with Delta Lake libraries.
 
-# Who... would benefit from this code?
+# Who
+Who would benefit from this code?
 - Data engineers and analysts who need to transform and update data in Delta Lake tables within a Databricks environment.
 
-# What... does this code do?
+# What
+What does this code do?
 - Data Transformation: Converts multiple columns into single columns with categorical values based on specific conditions.
 - Data Cleaning: Removes unnecessary columns after transformation.
 - Data Filtering: Filters out rows based on date criteria.
 - Data Integration: Merges and appends data into a Delta table for further analysis.lta tables.
 
-# When... would someone use this code?
+# When
+When would someone use this code?
 - Regular Data Updates: When data is periodically updated and needs to be processed before analysis.
 - Batch Processing: During scheduled batch processing jobs for large datasets.
 - Data Migration: While migrating data from one storage solution to another.
 - Preprocessing for Analytics: Before conducting exploratory data analysis or building dashboards.TL process.
 
-# Where... can this code be applied?
+# Where
+Where can this code be applied?
 - ETL Processes: Extract, Transform, Load processes in data pipelines.
 - Data Warehousing: Storing and managing large datasets in a structured way.
 - Reporting and Analytics: Preparing data for reporting tools like Tableau, PowerBI, etc.
 - Machine Learning Pipelines: Preparing and cleaning data before feeding it into machine learning models
 
-# Why... use this code?
+# Why
+Why use this code?
 - Efficiency: Automates repetitive tasks, reducing manual effort.
 - Accuracy: Ensures consistent data transformation and cleaning.
 - Scalability: Handles large datasets efficiently using Spark and Delta Lake.
